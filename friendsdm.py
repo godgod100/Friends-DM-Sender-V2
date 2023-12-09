@@ -29,7 +29,7 @@ if response.status_code == 200:
             else:
                 print(f"boş hata devam et: {dm_response.status_code}")
             
-            time.sleep(1)  #veklıoz burda
+            time.sleep(5)  #burayı 5 önerilir
 else:
     print(f"Captcha Error {response.status_code}")
     print(f"Capcap Falan {response.text}")
